@@ -10,4 +10,6 @@ PyPDF2
 python-docx
 sentence-transformers
 numpy
+pytorch
+torchvision
 reportlab
