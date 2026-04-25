@@ -1,13 +1,9 @@
+streamlit
 langchain
-wikipedia
+langchain-classic
 langchain-ollama
-langchain-community
-langchain-anthropic
 python-dotenv
-pydantic
 pypdf
 PyPDF2
 python-docx
-sentence-transformers
 numpy
-reportlab

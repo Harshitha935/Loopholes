@@ -84,6 +84,17 @@ python -m streamlit run app.py
 
 ---
 
+## Deployment Note (Important)
+
+- This is a **Streamlit app**, not a Python serverless API.
+- **Vercel Python runtime is not the right target** for this UI app and may show entrypoint errors.
+- Recommended deployment targets:
+  - Streamlit Community Cloud
+  - Render
+  - Railway
+
+---
+
 ## How to Use
 
 1. Upload exactly one **main structure file** in the **Main File** uploader.
