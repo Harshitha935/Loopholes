@@ -26,7 +26,9 @@ The app uses **local Ollama models** for both generation and embeddings.
 
 - Python 3.10+ (recommended)
 - pip
-- Ollama installed and running
+- Ollama installed and running (**required**)
+
+> This project requires local Ollama. The app will not run correctly without Ollama and the required models.
 
 If you do **not** have Ollama, follow the installation steps below.
 
@@ -84,8 +86,14 @@ python -m streamlit run app.py
 
 ## How to Use
 
-1. Upload exactly one **structure file**
-2. Upload one or more **supporting docs**
+1. Upload exactly one **main structure file** in the **Main File** uploader.
+   - The main file is the skeleton/template for report generation.
+   - Initial structure is extracted from this main file.
+2. In **Supporting Files**, upload files from:
+   - `test_case_supporting_documents/`
+   - Example files:
+     - `test_case_supporting_documents/Sustainable-Agriculture.pdf`
+     - `test_case_supporting_documents/sustainability-07-07833.pdf`
 3. Click **Generate Report**
 4. Work in **Report Workspace**:
    - edit full markdown report directly
