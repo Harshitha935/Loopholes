@@ -7,3 +7,6 @@ pypdf
 PyPDF2
 python-docx
 numpy
+pytorch
+torchvision
+reportlab
